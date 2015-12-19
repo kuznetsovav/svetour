@@ -1,0 +1,47 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{% static 'css/svetour.css' %}">
+</head>
+<body>
+<div class="container">
+    <div class="top_header">
+        <div class="mega_menu">
+            <ul>
+                <li>Главная</li>
+                <li>О компании</li>
+                <li>Отзывы</li>
+            </ul>
+        </div>
+        <div class="top_address">
+            {% load staticfiles %}
+        <img src="{% static "images/Phone-icon.png" %}"/>
+            Колл-центр агенства: <span class="header_phone">(8029)1849998</span>
+        </div>
+    </div>
+    <div class="header">
+        <h1><a href="/">logo</a></h1>
+    </div>
+    <div class="slider">
+        <h1>slider</h1>
+    </div>
+    <div class="content">
+        <div class="row">
+            <div class="col-md-8">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>footer</h1>
+    </div>
+    </div>
+</body>
+</html>

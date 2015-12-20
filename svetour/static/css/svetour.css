@@ -3,6 +3,7 @@ h1 a {
     margin:0px;
 }
 
+/*main row*/
 .container {
     width: 100%;
     min-width: 675px;
@@ -12,6 +13,7 @@ h1 a {
     margin-top: 0;
 }
 
+/*base css*/
 .top_header {
     width: 100%;
     height: 50px;
@@ -88,18 +90,6 @@ h1 a {
     font-style: italic;
  }
 
- .slider {
-    height: 370px;
- }
-
-.slider img {
-    width: 100%;
-}
-
-.content {
-    height: 200px;
-}
-
 .footer {
     height: 140px;
     background: black;
@@ -144,3 +134,55 @@ h1 a {
     height: 30px;
     margin-right: 10px;
 }
+
+/*home page content*/
+.content {
+
+}
+
+.slider {
+    height: 370px;
+ }
+
+.slider img {
+    width: 100%;
+}
+
+.home_content {
+    width: 1044px;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+.home_widget {
+    width: 275px;
+    height: 235px;
+    float: left;
+    position: relative;
+    margin-right: 20px;
+}
+
+.widget_image img {
+    width: 270px;
+    height: 190px;
+}
+
+.widget_title {
+    width: 100%;
+}
+
+.widget_title p{
+    font-weight: bold;
+    color: #444;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.widget_title img {
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+

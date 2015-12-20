@@ -95,3 +95,52 @@ h1 a {
 .slider img {
     width: 100%;
 }
+
+.content {
+    height: 200px;
+}
+
+.footer {
+    height: 140px;
+    background: black;
+}
+
+.footer_partners {
+    padding-top: 33px;
+    padding-left: 50px;
+    float: left;
+    position: relative;
+}
+
+.footer_partners img {
+    width: 140px;
+    height: 75px;
+    margin-right: 15px;
+}
+
+.footer_address {
+    padding-top: 29px;
+    margin-left: 30px;
+    float: left;
+    position: relative;
+
+}
+
+.footer_address p {
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+}
+
+.footer_social {
+    float: left;
+    position: relative;
+    padding-top: 29px;
+    margin-left: 40px;
+}
+
+.footer_social img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}

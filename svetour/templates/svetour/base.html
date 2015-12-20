@@ -58,7 +58,31 @@
         </div>
     </div>
     <div class="footer">
-        <h1>footer</h1>
+        <div class="footer_partners">
+             {% load staticfiles %}
+        <a href="/"><img src="{% static "images/odeon.gif" %}" alt="Ocean"/></a>
+             {% load staticfiles %}
+        <a href="/"><img src="{% static "images/coral-travel-logo.jpg" %}" alt="Ocean"/></a>
+             {% load staticfiles %}
+        <a href="/"><img src="{% static "images/sunmar_logo.jpg" %}" alt="Ocean"/></a>
+        </div>
+        <div class="footer_address">
+            <p>
+            +375291849998<br />
+            Беларусь, г.Светлогорск,<br />
+            Ул.Молодёжная, д.59.
+            </p>
+        </div>
+        <div class="footer_social">
+              {% load staticfiles %}
+        <a href="/"><img src="{% static "images/vk.png" %}" alt="Ocean"/></a>
+              {% load staticfiles %}
+        <a href="/"><img src="{% static "images/fb.png" %}" alt="Ocean"/></a>
+              {% load staticfiles %}
+        <a href="/"><img src="{% static "images/ok.png" %}" alt="Ocean"/></a>
+              {% load staticfiles %}
+        <a href="/"><img src="{% static "images/inst.ico" %}" alt="Ocean"/></a>
+        </div>
     </div>
     </div>
 </body>

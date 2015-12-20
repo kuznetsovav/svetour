@@ -85,21 +85,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="svetour.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="svetour.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/svetour/static/css/svetour.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.57816374">
+              <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/svetour/templates/svetour/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2254642">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state vertical-scroll-proportion="-10.461538">
+              <caret line="43" column="74" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -134,13 +134,14 @@
         <option value="$PROJECT_DIR$/svetour/urls.py" />
         <option value="$PROJECT_DIR$/svetour/views.py" />
         <option value="$PROJECT_DIR$/svetour/templates/svetour/home.html" />
-        <option value="$PROJECT_DIR$/svetour/static/css/svetour.css" />
         <option value="$PROJECT_DIR$/svetour/templates/svetour/base.html" />
+        <option value="$PROJECT_DIR$/svetour/static/css/svetour.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="168" />
+    <option name="x" value="570" />
+    <option name="y" value="189" />
     <option name="width" value="1024" />
     <option name="height" value="541" />
   </component>
@@ -425,7 +426,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="168" width="1024" height="541" extended-state="0" />
+    <frame x="570" y="189" width="1024" height="541" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -523,18 +524,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/svetour/static/css/svetour.css">
+    <entry file="file://$PROJECT_DIR$/svetour/templates/svetour/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="43" column="74" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/svetour/templates/svetour/base.html">
+    <entry file="file://$PROJECT_DIR$/svetour/static/css/svetour.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2254642">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.57816374">
+          <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
           <folding />
         </state>
       </provider>

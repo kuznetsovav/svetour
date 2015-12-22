@@ -46,8 +46,22 @@
         </div>
     </div>
     <div class="slider">
-         {% load staticfiles %}
-        <a href="/"><img src="{% static "images/slider.jpg" %}" alt="Ocean"/></a>
+    <!--     {% load staticfiles %}
+        <a href="/"><img src="{% static "images/slider.jpg" %}" alt="Ocean"/></a>-->
+        {% load staticfiles %}
+        <div class="slides">
+    <ul> <!-- Слайды -->
+        <li><img src="{% static "images/slider1.jpg" %}" alt="Горящие туры" />
+            <div>Горящие туры</div>
+        </li>
+        <li><img src="{% static "images/slider2.jpg" %}" alt="image02" />
+            <div>Пляжный отдых</div>
+        </li>
+        <li><img src="{% static "images/slider3.jpg" %}" alt="image03" />
+            <div>Горнолыжные курорты</div>
+        </li>
+    </ul>
+</div>
     </div>
     <div class="content">
         <div class="row">

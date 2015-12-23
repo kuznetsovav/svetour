@@ -3,7 +3,9 @@ h1 a {
     margin:0px;
 }
 
-
+body {
+background: white url("../images/back.jpg") repeat right bottom;
+}
 
 
 /*main row*/
@@ -74,9 +76,13 @@ h1 a {
 }
 
 .logo {
-    padding-top: 8px;
-    padding-left: 30px;
+    padding-top: 30px;
+    padding-left: 35px;
     float: left;
+}
+
+.logo img {
+height: 50px;
 }
 
 .secondary_menu {
@@ -141,11 +147,12 @@ h1 a {
 
 /*home page content*/
 .content {
+background: white url("../images/content_background.jpg") no-repeat right bottom;
 
 }
 
 .slider {
-    height: 370px;
+    height: 365px;
  }
 
 .slider img {
@@ -166,10 +173,19 @@ h1 a {
     margin-right: 20px;
 }
 
+.widget_image {
+    background-color: black;
+}
+
 .widget_image img {
-    width: 270px;
+    width: 275px;
     height: 190px;
 }
+
+.widget_image img:hover {
+    opacity:0.5;
+}
+
 
 .widget_title {
     width: 100%;
@@ -308,8 +324,6 @@ h1 a {
    18%, 38%, 58%, 78%, 98% { width:100%; opacity:0; }
 }
 
-/* RESET */
-
 
 /* HTML5 display-role reset for older browsers */
 
@@ -319,11 +333,6 @@ table {
 	border-spacing: 0;
 }
 
-
-/* Common */
-
-
-/* LAYOUT */
 
 /* CONTENT SLIDER */
 #content-slider {
@@ -415,7 +424,7 @@ table {
 /* PROGRESS BAR */
 .progress-bar {
 	position:relative;
-	top:-5px;
+	top:-1px;
 	width:680px;
 	height:5px;
 	background:#000;

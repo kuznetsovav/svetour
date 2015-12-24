@@ -60,7 +60,7 @@ background: white url("../images/back.jpg") repeat right bottom;
 
 .header {
     width: 100%;
-    height: 100px;
+    height: 80px;
 
 }
 
@@ -76,7 +76,7 @@ background: white url("../images/back.jpg") repeat right bottom;
 }
 
 .logo {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 35px;
     float: left;
 }
@@ -87,7 +87,7 @@ height: 50px;
 
 .secondary_menu {
     float: right;
-    padding-top: 35px;
+    padding-top: 25px;
 }
 
 .secondary_menu ul li {
@@ -152,7 +152,7 @@ background: white url("../images/content_background.jpg") no-repeat right bottom
 }
 
 .slider {
-    height: 365px;
+    height: 272px;
  }
 
 .slider img {
@@ -161,16 +161,17 @@ background: white url("../images/content_background.jpg") no-repeat right bottom
 
 .home_content {
     width: 1044px;
-    padding-left: 90px;
+    padding-left: 20px;
     padding-top: 20px;
 }
 
 .home_widget {
-    width: 275px;
+    width: 320px;
     height: 235px;
     float: left;
     position: relative;
     margin-right: 20px;
+    margin-bottom: 30px;
 }
 
 .widget_image {
@@ -178,8 +179,8 @@ background: white url("../images/content_background.jpg") no-repeat right bottom
 }
 
 .widget_image img {
-    width: 275px;
-    height: 190px;
+    width: 320px;
+    height: 210px;
 }
 
 .widget_image img:hover {
@@ -337,7 +338,7 @@ table {
 /* CONTENT SLIDER */
 #content-slider {
 	width:100%;
-	height:360px;
+	height:267px;
 
 
 }

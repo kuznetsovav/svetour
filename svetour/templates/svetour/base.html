@@ -39,7 +39,28 @@
         </div>
         <div class="secondary_menu">
         <ul>
-                <li>Страны</li>
+                <li>
+                    <a href="">Страны</a>
+                    <ul>
+                        {% load staticfiles %}
+                    <li><a href=""><img src="{% static "images/andorra.png" %}"/> Андорра</a></li>
+                    <li><a href=""><img src="{% static "images/bulgaria.png" %}"/>Болгария</a></li>
+                    <li><a href=""><img src="{% static "images/vietnam.png" %}"/>Вьетнам</a></li>
+                    <li><a href=""><img src="{% static "images/greece.png" %}"/>Греция</a></li>
+                    <li><a href=""><img src="{% static "images/egypt.png" %}"/>Египет</a></li>
+                    <li><a href=""><img src="{% static "images/india.png" %}"/>Индия</a></li>
+                    <li><a href=""><img src="{% static "images/italy.png" %}"/>Италия</a></li>
+                </ul>
+                    <ul class="secondary_menu_right">
+                        <li><a href=""><img src="{% static "images/indonesia.png" %}"/>Индонезия</a></li>
+                        <li><a href=""><img src="{% static "images/uae.png" %}"/>ОАЭ</a></li>
+                        <li><a href=""><img src="{% static "images/portugal.png" %}"/>Португалия</a></li>
+                        <li><a href=""><img src="{% static "images/thailand.ico" %}"/>Таиланд</a></li>
+                        <li><a href=""><img src="{% static "images/turkey.png" %}"/>Турция</a></li>
+                        <li><a href=""><img src="{% static "images/chernog.png" %}"/>Черногория</a></li>
+
+                    </ul>
+                </li>
                 <li>Отели</li>
                 <li>Визы</li>
                  <li>Спецпредложения</li>

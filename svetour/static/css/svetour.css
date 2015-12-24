@@ -64,7 +64,7 @@ background: white url("../images/back.jpg") repeat right bottom;
 
 }
 
-.header a {
+/*.header a {
     text-decoration: none;
     color: #2b5b84;
     font-weight: bold;
@@ -74,7 +74,7 @@ background: white url("../images/back.jpg") repeat right bottom;
 .header a:hover {
     color: #2b5b84;
 }
-
+*/
 .logo {
     padding-top: 20px;
     padding-left: 35px;
@@ -98,7 +98,47 @@ height: 50px;
     padding-right: 30px;
     font-size: 22px;
     font-style: italic;
+    text-decoration: none;
  }
+
+ .secondary_menu ul li a {
+    color: black;
+ }
+
+  .secondary_menu ul li a:hover {
+    color: black;
+ }
+
+   .secondary_menu ul li a img {
+    width: 30px;
+    height: 15px;
+    padding-right: 5px;
+ }
+
+ .secondary_menu ul li ul {
+     position: absolute;
+  z-index: 5;
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: white;
+  height: 240px;
+ }
+
+.secondary_menu ul li:hover ul {
+    display: block;
+    margin-top: -3px;
+}
+
+.secondary_menu ul li ul li {
+    display: block;
+    margin-left: -20px;
+}
+
+.secondary_menu_right {
+    margin-left: 170px;
+}
+
 
 .footer {
     height: 140px;
@@ -147,7 +187,7 @@ height: 50px;
 
 /*home page content*/
 .content {
-background: white url("../images/content_background.jpg") no-repeat right bottom;
+/*background: white url("../images/content_background.jpg") no-repeat right bottom;*/
 
 }
 

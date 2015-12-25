@@ -107,6 +107,7 @@ height: 50px;
 
   .secondary_menu ul li a:hover {
     color: black;
+
  }
 
    .secondary_menu ul li a img {
@@ -123,6 +124,7 @@ height: 50px;
   padding-bottom: 10px;
   background: white;
   height: 240px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
  }
 
 .secondary_menu ul li:hover ul {
@@ -137,6 +139,7 @@ height: 50px;
 
 .secondary_menu_right {
     margin-left: 170px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
 }
 
 
@@ -216,6 +219,7 @@ height: 50px;
 
 .widget_image {
     background-color: black;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
 }
 
 .widget_image img {

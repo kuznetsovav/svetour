@@ -95,19 +95,26 @@ height: 50px;
     display: inline;
     color: black;
     font-weight: bold;
-    padding-right: 30px;
+    margin-right: 5px;
     font-size: 22px;
     font-style: italic;
     text-decoration: none;
+ }
+
+ .secondary_menu ul li a:hover {
+    color: white;
+    text-decoration: none;
+
+ }
+
+ .secondary_menu ul li a:hover li {
+    color: white;
  }
 
  .secondary_menu ul li a {
     color: black;
  }
 
-  .secondary_menu ul li a:hover {
-    color: black;
- }
 
    .secondary_menu ul li a img {
     width: 30px;
@@ -123,25 +130,53 @@ height: 50px;
   padding-bottom: 10px;
   background: white;
   height: 240px;
-  box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.7);
+  background: black url("../images/secback.png") repeat;
  }
 
 .secondary_menu ul li:hover ul {
     display: block;
-    margin-top: -3px;
+    margin-top: 2px;
+    color: white;
 
 }
+
 
 .secondary_menu ul li ul li {
     display: block;
     margin-left: -20px;
+    padding-right: 30px;
+
 }
+
+.secondary_menu ul li ul li:hover {
+    text-decoration: underline;
+}
+
+
+
+.secondary_menu ul li ul li a {
+    color: white;
+}
+
+
 
 .secondary_menu_right {
     margin-left: 170px;
     box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
 }
 
+.secondary_menu_main {
+     padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+  .secondary_menu_main:hover {
+    background: black url("../images/secback.png") repeat;
+    color: white;
+ }
 
 .footer {
     height: 140px;

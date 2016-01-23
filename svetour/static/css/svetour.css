@@ -102,17 +102,20 @@ height: 50px;
  }
 
  .secondary_menu ul li a:hover {
-    color: white;
+
     text-decoration: none;
 
  }
 
  .secondary_menu ul li a:hover li {
-    color: white;
+
  }
 
- .secondary_menu ul li a {
+.secondary_menu ul li a {
     color: black;
+}
+ .secondary_menu ul li:hover > a {
+    color: white;
  }
 
 
@@ -138,7 +141,7 @@ height: 50px;
     display: block;
     margin-top: 2px;
     color: white;
-
+    transition: 3s;
 }
 
 
@@ -174,8 +177,8 @@ height: 50px;
 }
 
   .secondary_menu_main:hover {
-    background: black url("../images/secback.png") repeat;
-    color: white;
+
+background: black url("../images/secback.png") repeat;
  }
 
 .footer {

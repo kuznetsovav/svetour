@@ -1,7 +1,69 @@
 {% extends 'svetour/base.html' %}
 
 {% block content %}
+        <div class="slider">
+      <!--{% load staticfiles %}
+        <a href="/"><img src="{% static "images/slider.jpg" %}" alt="Ocean"/></a>-->
+        {% load staticfiles %}
+
+	<div id="content-slider">
+    	<div id="slider">
+        	<div id="mask">
+            <ul>
+           	<li id="first" class="firstanimation">
+            <a href="#">
+            <img src="{% static "images/slider0.jpg" %}" alt="Забота о Вашем отдыхе"/>
+            </a>
+            <div class="tooltip">
+            <h1>Забота о Вашем отдыхе</h1>
+            </div>
+            </li>
+
+            <li id="second" class="secondanimation">
+            <a href="#">
+            <img src="{% static "images/slider1.jpg" %}" alt="Горящие Туры"/>
+            </a>
+            <div class="tooltip">
+            <h1>Горящие Туры</h1>
+            </div>
+            </li>
+
+            <li id="third" class="thirdanimation">
+            <a href="#">
+            <img src="{% static "images/slider2.jpg" %}" alt="Пляжный Отдых"/>
+            </a>
+            <div class="tooltip">
+            <h1>Пляжный Отдых</h1>
+            </div>
+            </li>
+
+            <li id="fourth" class="fourthanimation">
+            <a href="#">
+            <img src="{% static "images/slider3.jpg" %}" alt="Горнолыжные Курорты"/>
+            </a>
+            <div class="tooltip">
+            <h1>Горнолыжные Курорты</h1>
+            </div>
+            </li>
+
+            <li id="fifth" class="fifthanimation">
+            <a href="#">
+            <img src="{% static "images/slider4.jpg" %}" alt="Раннее Бронирование"/>
+            </a>
+            <div class="tooltip">
+            <h1>Раннее Бронирование</h1>
+            </div>
+            </li>
+            </ul>
+            </div>
+            <div class="progress-bar"></div>
+        </div>
+
+</div>
+
+    </div>
 <div class="home_content">
+
 <div class="home_widget">
       <div class="widget_image view-first">
 

@@ -170,15 +170,14 @@ height: 50px;
 }
 
 .secondary_menu_main {
-     padding: 10px;
+    padding: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
 
 }
 
-  .secondary_menu_main:hover {
-
-background: black url("../images/secback.png") repeat;
+.secondary_menu_main:hover {
+    background: black url("../images/secback.png") repeat;
  }
 
 .footer {
@@ -234,6 +233,7 @@ background: black url("../images/secback.png") repeat;
 
 .slider {
     height: 272px;
+    width: 1044px;
  }
 
 .slider img {
@@ -584,3 +584,9 @@ table {
     height: 267px;
 }
 
+/*Country*/
+
+.country_image img {
+    width:1044px;
+     height: 272px;
+}

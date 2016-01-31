@@ -35,7 +35,7 @@
     <div class="header">
         <div class="logo">
             {% load staticfiles %}
-        <img src="{% static "images/logo.jpg" %}"/>
+        <a href="/"><img src="{% static "images/logo.jpg" %}"/></a>
         </div>
         <div class="secondary_menu">
         <ul>
@@ -43,7 +43,7 @@
                     <a href="">Страны</a>
                     <ul>
                         {% load staticfiles %}
-                    <li><a href=""><img src="{% static "images/andorra.png" %}"/> Андорра</a></li>
+                    <li><a href="../andorra"><img src="{% static "images/andorra.png" %}"/> Андорра</a></li>
                     <li><a href=""><img src="{% static "images/bulgaria.png" %}"/>Болгария</a></li>
                     <li><a href=""><img src="{% static "images/vietnam.jpg" %}"/>Вьетнам</a></li>
                     <li><a href=""><img src="{% static "images/greece.png" %}"/>Греция</a></li>
@@ -66,67 +66,6 @@
                   <li class="secondary_menu_main"><a href="">Спецпредложения</a></li>
         </ul>
         </div>
-    </div>
-    <div class="slider">
-      <!--{% load staticfiles %}
-        <a href="/"><img src="{% static "images/slider.jpg" %}" alt="Ocean"/></a>-->
-        {% load staticfiles %}
-
-	<div id="content-slider">
-    	<div id="slider">
-        	<div id="mask">
-            <ul>
-           	<li id="first" class="firstanimation">
-            <a href="#">
-            <img src="{% static "images/slider0.jpg" %}" alt="Забота о Вашем отдыхе"/>
-            </a>
-            <div class="tooltip">
-            <h1>Забота о Вашем отдыхе</h1>
-            </div>
-            </li>
-
-            <li id="second" class="secondanimation">
-            <a href="#">
-            <img src="{% static "images/slider1.jpg" %}" alt="Горящие Туры"/>
-            </a>
-            <div class="tooltip">
-            <h1>Горящие Туры</h1>
-            </div>
-            </li>
-
-            <li id="third" class="thirdanimation">
-            <a href="#">
-            <img src="{% static "images/slider2.jpg" %}" alt="Пляжный Отдых"/>
-            </a>
-            <div class="tooltip">
-            <h1>Пляжный Отдых</h1>
-            </div>
-            </li>
-
-            <li id="fourth" class="fourthanimation">
-            <a href="#">
-            <img src="{% static "images/slider3.jpg" %}" alt="Горнолыжные Курорты"/>
-            </a>
-            <div class="tooltip">
-            <h1>Горнолыжные Курорты</h1>
-            </div>
-            </li>
-
-            <li id="fifth" class="fifthanimation">
-            <a href="#">
-            <img src="{% static "images/slider4.jpg" %}" alt="Раннее Бронирование"/>
-            </a>
-            <div class="tooltip">
-            <h1>Раннее Бронирование</h1>
-            </div>
-            </li>
-            </ul>
-            </div>
-            <div class="progress-bar"></div>
-        </div>
-
-</div>
-
     </div>
     <div class="content">
         <div class="row">

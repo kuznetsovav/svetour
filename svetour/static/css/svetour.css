@@ -590,3 +590,70 @@ table {
     width:1044px;
      height: 272px;
 }
+
+.country_tours {
+    padding-left: 40px;
+    padding-top: 20px;
+    width: 1044px;
+    margin-bottom: 60px;
+}
+
+.country_tours p {
+    display: inline-block;
+    border-left: solid 5px blue;
+    color: blue;
+    font-size: 40px;
+    padding-left: 5px;
+}
+
+.country_tours_list {
+    width: 100%;
+    text-decoration: none;
+    margin-left: -20px;
+}
+
+.country_tours_list li {
+    width: 170px;
+    list-style-type: none;
+    float: left;
+    position: relative;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.country_gallery {
+    width:1100px;
+    margin-left: -40px;
+    margin-bottom: 240px;
+}
+
+.country_gallery img {
+    width: 261px;
+    height: 150px;
+}
+
+.country_gallery li {
+    width: 261px;
+    list-style-type: none;
+    float: left;
+    position: relative;
+}
+
+.country_information {
+    width: 1044px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+.country_information_headline {
+    color: blue;
+    font-size: 40px;
+}
+
+.country_information p {
+    font-family: Verdana;
+}

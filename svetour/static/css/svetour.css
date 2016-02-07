@@ -646,7 +646,8 @@ table {
 .country_information {
     width: 1044px;
     padding-left: 50px;
-    margin-bottom: 50px;
+    padding-right: 50px;
+    margin-bottom: 20px;
 }
 
 .country_information_headline {
@@ -656,4 +657,90 @@ table {
 
 .country_information p {
     font-family: Verdana;
+}
+
+.country_hotels {
+    width: 985px;
+    margin: 30px;
+}
+
+.country_hotel {
+    height: 150px;
+    background: #E6E6FA;
+    width: 985px;
+    margin-bottom: 20px;
+}
+
+.country_hotel_left {
+    width: 220px;
+    float: left;
+    position: relative;
+
+}
+
+.country_hotel_image {
+    padding: 10px;
+}
+
+.country_hotel_image img {
+    width: 200px;
+    height: 100px;
+}
+
+.country_hotel_stars {
+    width: 200px;
+    padding-left: 60px;
+}
+.country_hotel_stars img {
+    width: 20px;
+    height: 20px;
+}
+
+.country_hotel_right {
+    float: left;
+    position: relative;
+    width: 765px;
+}
+.country_hotel_name {
+    width: 200px;
+    padding-top: 30px;
+    float: left;
+    position: relative;
+}
+
+.preview_hotel_name {
+    color: blue;
+    font-size: 19px;
+    line-height: 10%;
+}
+
+.country_hotel_price {
+    width: 200px;
+    float: right;
+    position: relative;
+    padding-top: 20px;
+}
+
+.country_hotel_price img {
+   width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+
+.country_hotel_features {
+    position: absolute;
+    margin-top: 90px;
+}
+
+.country_hotel_features p {
+    float: left;
+    position: relative;
+    padding-right: 25px;
+
+}
+
+.country_hotel_features img {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
 }

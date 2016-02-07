@@ -6,3 +6,6 @@ def home(request):
 
 def andorra(request):
     return render(request, 'svetour/andorra.html', {})
+
+def shusskiapthl(request):
+    return render(request, 'svetour/shusskiapthl.html', {})

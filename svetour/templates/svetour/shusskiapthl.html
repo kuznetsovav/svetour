@@ -1,0 +1,94 @@
+{% extends 'svetour/base.html' %}
+{% load staticfiles %}
+{% block content %}
+    <div class="hotel_image">
+        <img src="{% static "images/andorra/shusski_preview.jpg" %}"/>
+    </div>
+    <div class="hotel_common_info">
+        <p>Общая информация</p>
+        <ul class="hotel_overview">
+            <li><img src="{% static "images/andorra/building.png" %}" alt=""/><span class="hotel_overview_item">Отель</span> <br> Main building - один 5-этажный корпус</li>
+            <li><img src="{% static "images/andorra/location.png" %}" alt=""/><span class="hotel_overview_item">Месторасположение</span><br>220 км от аэропорта г. Барселона, в п. Энкамп, в 20 км от подъемника.</li>
+            <span class="hotel_overview_right"><li><img src="{% static "images/andorra/watch.png" %}" alt=""/><span class="hotel_overview_item">Год основания</span><br>2003</p></li></span>
+        </ul>
+    </div>
+
+    <div class="hotel_information">
+        <p class="hotel_information_headline">Обзор</p>
+        <div class="hotel_features">
+            <ul>
+                <p>Инфраструктура</p>
+                <li>1 ресторан</li>
+                <li>SPA-центр</li>
+                <li>прачечная</li>
+                <li>лифты</li>
+                <li>бар</li>
+                <li>Wi-Fi в лобби (бесплатно)</li>
+                <li>прокат горнолыжного оборудования (платно)</li>
+                <li>лыжное хранилище</li>
+                <li>парковка (платно)</li>
+            </ul>
+             <ul>
+                 <p>В номере</p>
+                <li>ТВ (спутниковое телевидение)</li>
+                 <li>кондиционер-сплит</li>
+                 <li>мини-холодильник</li>
+                 <li>кухонный уголок с микроволновой печью</li>
+                 <li>сейф (платно)</li>
+                 <li>душ, фен</li>
+                 <li>телефон</li>
+                 <li>балкон</li>
+                 <li>подключение к интернету (бесплатно)</li>
+                 <li>детская кровать (по запросу)</li>
+            </ul>
+             <ul>
+                 <p>Типы комнат</p>
+                <li>
+                    Standard rooms (40 м2, спальня с дверью и двумя односпальными кроватями, гостиная с диван­
+кроватью, макс. 4 чел.)
+                </li>
+            </ul>
+            <span class="hotel_features_right"><ul>
+                 <p>Платные услуги</p>
+                <li>
+                    турецкая баня
+                </li>
+                 <li>джакузи</li>
+                 <li>массаж</li>
+            </ul></span>
+        </div>
+
+    </div>
+    <div class="hotel_text">
+        <p>Aparthotel Shusski входит в группу отелей HOTANSA (это отели с удобным расположением, хорошей
+
+инфраструктурой,  комфортабельными номерами и современным сервисом).  Гостиничная сеть
+
+Hotansa – одна из ведущих в княжестве Андорра.  Апарт­отель Shusski расспаложен  в 20 метрах от
+
+горнолыжного курорта Грандвалира, поэтому идеально подходит  для любителей зимних видов
+
+спорта.   Вокруг отеля много магазинов профессионального горнолыжного оборудования.
+
+Подъемник FUNICAMP  доставляет лыжников на синие и  красные трассы Grau Roig и Pas de la Casa.
+        </p>
+    </div>
+
+    <div class="hotel_knowledge">
+        <p class="hotel_knowledge_headline">
+            Полезно знать об отеле Aparthotel Shusski:
+        </p>
+        <ul>
+            <li><img src="{% static "images/andorra/ok.png" %}" alt=""/>Персонал говорит на 6 языках:  португальском, нидерландском, французском,  испанском,
+
+английском, каталанском.</li>
+            <li><img src="{% static "images/andorra/ok.png" %}" alt=""/>8 вариантов размещения в городе Энкамп
+
+Включая отели, апартаменты, виллы и другие варианты.</li>
+            <li><img src="{% static "images/andorra/ok.png" %}" alt=""/>Широкий выбор услуг для максимально комфортного пребывания, в том числе - <b>Spa & Wellness</b>.</li>
+            <li><img src="{% static "images/andorra/ok.png" %}" alt=""/>Рядом находится Фуникамп ­ крупнейшая канатная дорога Европы.</li>
+        </ul>
+    </div>
+
+
+      {% endblock content %}
